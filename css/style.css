@@ -1,0 +1,11 @@
+*{
+    text-align: center;
+}
+body{
+    background-image: url(img/pokBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 99%;
+    
+}
