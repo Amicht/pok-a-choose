@@ -55,7 +55,7 @@ loadCards = (arr, fn) => {
     const clickFn = `onclick="${fn}(event)"`
     arr.forEach(e => {
         if(clickFn == `onclick="screen4(event)"`){
-        dataToHTML += `<div class="card col-2 m-1">
+        dataToHTML += `<div class="card m-1 col-sm-3" >
             <div class="card-header">
             ${e}</div>
             <div class="card-body pok-btn">
@@ -64,7 +64,7 @@ loadCards = (arr, fn) => {
             </div></div>`;
         
         }else{
-            dataToHTML += `<div class="card col-2 m-1">
+            dataToHTML += `<div class="card m-1 col-sm-3">
             <div class="card-header">
             ${e}</div>
             <div class="card-body pok-btn">

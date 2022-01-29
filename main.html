@@ -9,28 +9,30 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container text-center">
-        <header class="bg-white sticky-top">
-            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                <ol class="breadcrumb" id="navs">
-                </ol>
-              </nav>
-              <div id="prgress-bar" class="progress"></div>
-              <h2 id="title" class="text-primary bg-white pb-1"></h2>
-        </header>
-    </div>
-
-    <div id="cards"class="row justify-content-center"></div>
+    <div class="container-sm">
+        <div class="text-center">
+            <header class="bg-white">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb" id="navs">
+                    </ol>
+                  </nav>
+                  <div id="prgress-bar" class="progress"></div>
+                  <h2 id="title" class="text-primary bg-white pb-1"></h2>
+            </header>
+        </div>
     
-    <div  class="modal fade" id="staticBackdrop" tabindex="-1" data-bs-backdrop="static" 
-        data-bs-keyboard="false" aria-hidden="true">
-        <div class="modal-dialog modal-sm">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title ">your pokemon is:</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div id="cards"class="row justify-content-center mx-auto"></div>
+        
+        <div  class="modal fade" id="staticBackdrop" tabindex="-1" data-bs-backdrop="static" 
+            data-bs-keyboard="false" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title ">your pokemon is:</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body card" id="myPokCard"></div>
             </div>
-            <div class="modal-body card" id="myPokCard"></div>
         </div>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
