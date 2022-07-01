@@ -10,6 +10,6 @@ Choose A custom pokemon by filter in 3 steps:
   1. Select a pokemon.
 
  - The API data fetched from https://pokeapi.co/ .
- - This project forked from https://github.com/YaakovHatam/exercise-08-pokemon.
+ - This exercise forked from https://github.com/YaakovHatam/exercise-08-pokemon.
  
  
