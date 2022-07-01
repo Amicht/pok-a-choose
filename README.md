@@ -9,7 +9,7 @@ Choose A custom pokemon by filter in 3 steps:
   2. Select a specie.
   1. Select a pokemon.
 
- - The API data fatched from https://pokeapi.co/ .
+ - The API data fetched from https://pokeapi.co/ .
  - This project forked from https://github.com/YaakovHatam/exercise-08-pokemon.
  
  
